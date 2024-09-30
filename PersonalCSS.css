@@ -68,6 +68,7 @@
     border-style:groove;
     border-radius:3px;
     padding: 10px;
+    margin-left: auto;
 }
 
 .footer-img{
@@ -119,17 +120,26 @@ p{
     width: 250px;
     }
 
+    .headerlist{
+        margin-top:25px;
+    }
+
     .line{
         display:block;
     }
 
-    .header{
+    .footer{
+        display:inline-flex;
+    }
+
+   /* .header{
     justify-content: center;
     align-items: center;
     font-weight: bolder;
     padding-left: 15px;
+
     }
-   
+   */
 
 }
     
