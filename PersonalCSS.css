@@ -9,16 +9,21 @@
     padding: 10px;
 }
 
+.header ul li a:focus{
+    outline: 2px solid seagreen;
+    background-color: rgba(128, 128, 128, 0.171);
+    border-radius: 5px;
+}
 
 .headerlist{
-    display: inline-block;
+    display: inline-flex;
     font-family: 'Montserrat';
     border-radius: 20px;
     background-color: rgb(25, 27, 27);
     letter-spacing: 2px;
     border-style:outset;
     box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.67);
-    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .headerlist a:link{
@@ -39,9 +44,20 @@
     transition: all 0.5s;
 }
 
+.welcome{
+    letter-spacing: 2px;
+}
+
+.rome {
+    text-align:center;
+    position:relative;
+    color:black;
+    border-radius: 10px;
+}
+
 .footer{
-    display: flex;
-    margin: 5px;
+    display: inline-flex;
+    position:relative;
     gap: 15px;
     border-style:groove;
     border-radius:5px;
@@ -55,8 +71,8 @@
 
 .licenses{
     position:relative;
-    display:inline-flex;
     gap: 5px;
+    word-wrap: break-word;
 }
 
 p{
@@ -66,80 +82,30 @@ p{
 }
 
 /*Mobile*/ 
-@media screen and (max-width: 200px) {
+@media (orientation:portrait) {
             
     #banner
-    {width: 50%;}
+    {width: 25%;}
 
-    .small {display:inline;}
-    .medium {display:none;}
-    .large {display:none;}
-
-    .headerlist{
-    font-size: 5px;
+    .header{
     justify-content: center;
     align-items: center;
     font-weight: bolder;
     padding-left: 15px;
     }
-    .footer{
-    display:flexbox;
-    }
+   
 
 }
     
-
-
-
-/*Medium*/
-
-@media screen and (min-width: 201px) {
-    .small {display:none;}
-    .medium {display:inline;}
-    .large {display:none;}
-
-    .headerlist{
-    
-
-
-}
 
 
 /*Desktop*/
-@media screen and (min-width: 1200px) {
+@media (orientation:landscape) {
+
 .small {display:none;}
 .medium {display:none;}
 .large {display:inline;}
 
-.herotext{
-    font-size: 10vw;
-    font-family: 'Alkatra';
-    font-weight: bolder;
-    justify-content: center;
-    align-items: center;
-    padding-left: 15px;
-    margin: 0;
-}
 
-.navbar__btn {
-    font-size: 1vw;
-}
-
-.navbar__btn--primary {
-    font-size: 1vw;
-        
-}
-
-#rubrik{
-    font-size: 3vw;
-
-}
-.verk{
-    font-size: 2vw;
-}
-
-h1 h2{
-    font-size: 1vw;
-}
 
 }
