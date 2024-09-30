@@ -1,0 +1,145 @@
+/*Home*/
+
+#banner{
+    color: rgb(42, 87, 95);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+
+.headerlist{
+    display: inline-block;
+    font-family: 'Montserrat';
+    border-radius: 20px;
+    background-color: rgb(25, 27, 27);
+    letter-spacing: 2px;
+    border-style:outset;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.67);
+    margin-right: 10px;
+}
+
+.headerlist a:link{
+    color: white;
+    font-weight:bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.headerlist a:visited{
+    color: rgb(191, 180, 255);
+    border-style: inset;
+}
+
+.headerlist a:hover{
+    color: rgb(252, 113, 113);
+    transition: all 0.5s;
+}
+
+.footer{
+    display: flex;
+    margin: 5px;
+    gap: 15px;
+    border-style:groove;
+    border-radius:5px;
+    padding: 5px;
+}
+
+.footer-img{
+    width: 25px;
+    height: 25px;
+}
+
+.licenses{
+    position:relative;
+    display:inline-flex;
+    gap: 5px;
+}
+
+p{
+    position:relative;
+    bottom: 15px;
+    
+}
+
+/*Mobile*/ 
+@media screen and (max-width: 200px) {
+            
+    #banner
+    {width: 50%;}
+
+    .small {display:inline;}
+    .medium {display:none;}
+    .large {display:none;}
+
+    .headerlist{
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding-left: 15px;
+    }
+    .footer{
+    display:flexbox;
+    }
+
+}
+    
+
+
+
+/*Medium*/
+
+@media screen and (min-width: 201px) {
+    .small {display:none;}
+    .medium {display:inline;}
+    .large {display:none;}
+
+    .headerlist{
+    
+
+
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 1200px) {
+.small {display:none;}
+.medium {display:none;}
+.large {display:inline;}
+
+.herotext{
+    font-size: 10vw;
+    font-family: 'Alkatra';
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.navbar__btn {
+    font-size: 1vw;
+}
+
+.navbar__btn--primary {
+    font-size: 1vw;
+        
+}
+
+#rubrik{
+    font-size: 3vw;
+
+}
+.verk{
+    font-size: 2vw;
+}
+
+h1 h2{
+    font-size: 1vw;
+}
+
+}
