@@ -60,6 +60,15 @@
     border-radius:25px;
 }
 
+.figcaption{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.personaltext{
+    max-width:1000px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /*Footer*/
 
 .footer{
@@ -130,6 +139,20 @@ p{
 
     .footer{
         display:inline-flex;
+    }
+
+    .personaltext{
+        max-width: 400px;
+    }
+
+    .lore{
+        height: 200px;
+        width: 375px;
+    }
+
+    .jag{
+        width: 125px;
+        height: 165px;
     }
 
    /* .header{
