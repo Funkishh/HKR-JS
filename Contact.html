@@ -21,8 +21,53 @@
       </header>
       <main>
         <div>
-          <h2>Please see contact information on the bottom of the page</h2>
+          <h2>If you have questions, feel free to contact me</h2>
           
+          <form class="contactmail" method="POST" action="mailto:a22matfu@student.his.se" enctype="multipart/form-data">
+            <fieldset>
+              <legend>Your E-mail address</legend>
+              <div>
+                  <div>
+                      <label>
+                          <input type="text" name="firstname" placeholder="myname@domain.com">
+                      </label>
+                  </div>
+                  
+                  </div>
+              </div>
+          
+            <legend></legend>
+            <div class="contactmail">
+                <div>
+                    <label>
+                        Reason for reaching out
+                        <select name="role">
+                            <option value="front">Friendship</option>
+                            <option value="back">Business</option>
+                            <option value="full">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>
+                        Message:
+                    </label>
+                </div>
+                <div>
+                    <textarea name="about" cols="30" rows="10" placeholder="What's on your heart?"></textarea>
+                </div>
+            </div>
+            </fieldset>
+                <div class="sendmail">
+                    <input class="sendmail" type="submit" value="Send Mail">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+            
+          </form>
+
         </div>
         </main>
 
@@ -42,7 +87,7 @@
                 <img src="linkedin.png" class="footer-img">
               </a>
               <div class="mail">
-                <a href="mailto:a22matfu@student.his.se">Send me a mail</a>
+                <a href="mailto:a22matfu@student.his.se">Mail</a>
               </div>
               <a href="#" class="back-to-top">Back to Top</a>
             </div>
