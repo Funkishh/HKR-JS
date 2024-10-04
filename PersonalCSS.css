@@ -118,6 +118,12 @@ p{
     
 }
 
+.contactaddress{
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 210px;
+}
+
 .contactmail{
     padding: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
